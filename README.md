@@ -1,5 +1,7 @@
 # README
 
+Install the scripts as per the manifest.
+
 Put your data into data.json like this:
 
 ``` jsonc
