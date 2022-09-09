@@ -1,8 +1,16 @@
 # README
 
-Install the scripts as per the manifest.
+A chrome extension for saving you from dropping tables in production, inspired by and building on <https://www.charon.org/extension.html>.
 
-Put your data into data.json like this:
+Right now this has to be sideloaded into chrome from source.
+
+To use:
+
+1. Install the scripts as per the manifest.
+
+2. Put your data into data.json as below
+
+3. Load into chrome extensions
 
 ``` jsonc
 {
@@ -26,4 +34,5 @@ Put your data into data.json like this:
         // danger colour for e.g. production
         "colour": "#ff0800"
     }
+
 ```
